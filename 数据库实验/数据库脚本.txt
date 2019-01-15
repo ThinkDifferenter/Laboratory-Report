@@ -1,0 +1,171 @@
+实验二
+create database BM
+
+create table readers(
+读者编号 char(10) primary key ,
+姓名 nchar(10) not null,
+读者类型 int,
+已借数量 int);
+
+
+create table books(
+图书编号 char(10) primary key ,
+书名 nchar(10) not null,
+作者 nchar(10),
+出版社 nchar(10),
+出版日期 datetime,
+定价 float );
+
+
+
+create table borrowinf(
+读者编号 nchar(10) primary key ,
+图书编号 char(15) not null,
+借期 datetime not null,
+还期 datetime );
+
+
+
+create table readtype(
+类型编号 int primary key ,
+类型名称 char(10) not null,
+限借数量 int not null,
+借阅期限 int);
+
+
+
+
+
+
+实验三
+
+insert into readers values('2017010101','蒋军',3,125);
+
+insert into readers values('2017010102','张明',2,120);
+
+update readtype set 限借数量=30,借阅期限=180 where 类型名称='reader2';
+
+delete from books where 书名='数据结构';
+
+select * from readers;
+
+select * from borrowinf where 读者编号='2017060328';
+
+select 书名,作者 from books where 出版社='青山';
+
+select * from books where 书名 like '%程序设计%';
+
+select * from books where 出版社='青山' order by 定价 desc;
+
+select top 3 Sno,Score from SC order by Score desc;
+
+select top 3 Sno,Score from SC s,C c where s.Sno=c.Sno and Cname=‘数据库原理’ order by Score asc;
+
+select max(Score) as MAX,min(Score) as MIN,avg(Score) as AVG from SC;
+
+select Cno,max(Score) as MAX,min(Score) as MIN,avg(Score) as AVG from SC  Group by Cno;
+
+selct Sno,COUNT(*) as NUM FROM SC group by Sno having  COUNT(*)>=2;
+
+
+实验四
+
+select * from books;
+
+select 定价 from books;
+
+select 出版社,COUNT(*) from books group by 出版社;
+
+select 读者编号,COUNT(*) as 借阅数量 from borrowinf where 借期 between '2004-1-1' and '2004-12-31' group by 读者编号;
+
+select borrowinf.* from books,borrowinf where books.图书编号=borrowinf.图书编号 and 作者='梁晓峰' and 借期 between '2004-1-1' and '2004-12-31';
+
+
+实验五
+
+select * from S where Sno in (select Sno from SC);
+
+select * from S where Sno not in (select Sno from SC);
+
+select * from books where 定价>(select AVG(定价) from books);
+
+select * from books where 出版社='青山' and  定价>(select AVG(定价) from books);
+
+select top 1 S.Sno,S.Sname,Sno,Score fomr S,SC where S.Sno=SC.Sno and Cno='kc02' order by Score desc;
+
+select S.* from S,SC,C where S.Sno=SC>Sno and SC.Cno=C.Cno and Cname='数据库原理';
+
+select S.* ,count(*) as NUM from S,SC where S.Sno=SC.Sno group by S.Sno having count(*)>=2;
+
+select C.Cno,C.Cname ,count(*) as NUM from S,SC,C where S.Sno=SC.Sno and SC.Cno=C.Cno group by S.Sno having count(*)>=2;
+
+
+
+实验六
+
+create database KCGL;
+
+
+create table S(
+学号 char(6) primary key ,
+姓名 nchar(10),
+性别 nchar(10),
+班级名 nchar(10),
+系别代号 char(2),
+地址 nchar(10),
+出生日期 datatime);
+
+
+create table SC(
+学号 char(6),
+课程号 nchar(10),
+成绩 nchar(10)
+primary key(学号,课程号)
+);
+
+
+create table C(
+课程号 char(2) primary key,
+课程名 nchar(10),
+教师 nchar(10));
+
+
+create table D(
+代号 char(2) primary key,
+分院名 nchar(10));
+
+
+
+试验七
+
+create unique index ID_Sno on S(学号 ASC);
+create unique index ID_Cno on C(课程号 ASC);
+
+drop index S.ID_Sno;
+drop index C.ID_Cno;
+
+constraint CK_S_sex check(性别 in ('男','女'));
+constraint DF_S_sex default for 性别 '男';
+
+create view OT (读者编号,图书编号,借期)
+as
+select 读者编号,图书编号,借期,还期 from  borrowinf where 还期 < GETDATE()
+
+create view Computedept_view(学号,姓名,班级名,课程名称,成绩)
+as
+select 学号,姓名,班级名,课程名称,成绩 from S,SC,C,D where S.学号=SC.学号 and SC.课程号=C.课程号 and S.系别代号=D.系别代号 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
