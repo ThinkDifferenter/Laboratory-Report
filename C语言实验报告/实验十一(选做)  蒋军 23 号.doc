@@ -1,0 +1,258 @@
+{\rtf1\ansi\ansicpg936\deff0\deflang1033\deftab420{\fonttbl{\f0\fnil\fcharset134 \'cb\'ce\'cc\'e5;}{\f1\froman\fcharset0 Times New Roman;}{\f2\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\fi321\qc\lang2052\kerning2\b\f0\fs32\'bd\'ad\'ce\'f7\'c0\'ed\'b9\'a4\'b4\'f3\'d1\'a7\'c0\'ed\'d1\'a7\'d4\'ba\par
+\'ca\'b5\'d1\'e9\'ca\'ae\'d2\'bb\super *\nosupersub  \'ba\'af\'ca\'fd(2)\par
+\pard\nowidctlpar\qc\b0\fs21\'b0\'e0\'bc\'b6\lang1033\f1 __\lang2052\f0\'d0\'c5\'cf\'a2\lang1033\f1  151\lang2052\f0\'b0\'e0\lang1033\f1 ___________\lang2052\f0\'d1\'a7\'ba\'c5\lang1033\f1 __23_________\lang2052\f0\'d0\'d5\'c3\'fb\lang1033\f1 _\lang2052\f0\'bd\'af\'be\'fc\lang1033\f1 __________\par
+\pard\nowidctlpar\qj\~\par
+\pard\nowidctlpar\qc ___________\lang2052\f0\'ba\'c5\'bb\'fa\'c6\'f7\lang1033\f1    \lang2052\f0\'ca\'b1\'bc\'e4\'a3\'ba\lang1033\f1 ________________________\par
+\pard\nowidctlpar\qj\lang2052\b\f0\fs24\'ca\'b5\'d1\'e9\'c4\'bf\'b5\'c4\'a3\'ba\lang1033\f1\par
+\b0\fs21\~\par
+1. \lang2052\f0\'bd\'f8\'d2\'bb\'b2\'bd\'d5\'c6\'ce\'d5\'ba\'af\'ca\'fd\'b5\'c4\'b6\'a8\'d2\'e5\'ba\'cd\'b5\'f7\'d3\'c3\lang1033\f1\par
+2. \lang2052\f0\'d5\'c6\'ce\'d5\'ba\'af\'ca\'fd\'b5\'c4\'c7\'b6\'cc\'d7\'b5\'f7\'d3\'c3\'a3\'bb\lang1033\f1\par
+3. \lang2052\f0\'c1\'cb\'bd\'e2\'ba\'af\'ca\'fd\'b5\'c4\'b5\'dd\'b9\'e9\'b5\'f7\'d3\'c3\'a3\'ac\'d5\'c6\'ce\'d5\'b5\'dd\'b9\'e9\'ba\'af\'ca\'fd\'b5\'c4\'b1\'e0\'d0\'b4\'b9\'e6\'c2\'c9\'a3\'bb\lang1033\f1\par
+4. \lang2052\f0\'d6\'d8\'b5\'e3\'d5\'c6\'ce\'d5\'ca\'fd\'d7\'e9\'d7\'f7\'ba\'af\'ca\'fd\'b2\'ce\'ca\'fd\'a1\'a3\lang1033\f1\par
+5. \lang2052\f0\'d5\'c6\'ce\'d5\'ba\'ac\'b6\'e0\'b8\'f6\'d4\'b4\'ce\'c4\'bc\'fe\'b5\'c4\'b3\'cc\'d0\'f2\'b5\'c4\'b1\'e0\'d2\'eb\'a1\'a2\'c1\'ac\'bd\'d3\'ba\'cd\'b5\'f7\'ca\'d4\'d4\'cb\'d0\'d0\'b5\'c4\'b7\'bd\'b7\'a8\lang1033\f1\par
+\lang2052\b\f0\fs24\'ca\'b5\'d1\'e9\'d2\'aa\'c7\'f3\'a3\'ba\lang1033\f1\par
+\b0\fs21\~\par
+\lang2052\f0\'c3\'bf\'b4\'ce\'ca\'b5\'d1\'e9\'c7\'b0\lang1033\f1 ,\lang2052\f0\'d1\'a7\'c9\'fa\'d2\'aa\'cf\'c8\'d4\'a4\'cf\'b0\'ca\'b5\'d1\'e9\'c4\'da\'c8\'dd\lang1033\f1 ,\lang2052\f0\'d0\'b4\'b3\'f6\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\'bb\'f2\'b3\'cc\'d0\'f2\lang1033\f1 ,\lang2052\f0\'be\'ad\'ca\'b5\'d1\'e9\'d6\'b8\'b5\'bc\'c0\'cf\'ca\'a6\'bc\'ec\'b2\'e9\'ba\'f3\lang1033\f1 ,\lang2052\f0\'c9\'cf\'bb\'fa\'d4\'cb\'d0\'d0\'a1\'a2\'b5\'f7\'ca\'d4\'b3\'cc\'d0\'f2\lang1033\f1 ,\lang2052\f0\'b5\'c3\'b3\'f6\'d7\'ee\'d6\'d5\'d5\'fd\'c8\'b7\'bd\'e1\'b9\'fb\'a1\'a3\lang1033\f1\par
+\~\par
+\lang2052\b\f0\fs24\'ca\'b5\'d1\'e9\'c4\'da\'c8\'dd\'a3\'ba\lang1033\f1\par
+\b0\fs21\~\par
+\lang2052\b\f0\'d2\'bb\lang1033\f1 . \lang2052\f0\'b6\'c1\'b3\'cc\'d0\'f2\lang1033\f1\par
+\lang2052\b0\f0\'d2\'aa\'c7\'f3\'a3\'ba\'b6\'c1\'b6\'ae\'b3\'cc\'d0\'f2\'a3\'ac\'d0\'b4\'b3\'f6\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\'a3\'bb\'c9\'cf\'bb\'fa\'d4\'cb\'d0\'d0\'b3\'cc\'d0\'f2\'a3\'ac\'b5\'c3\'b5\'bd\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\'a3\'ac\'b1\'c8\'bd\'cf\'d6\'ae\'a1\'a3\lang1033\f1\par
+\lang2052\f0\~1\'a1\'a2 #include <stdio.h>\par
+\pard\nowidctlpar\fi420\qj void func1(int  i);\par
+\pard\nowidctlpar\qj\lang1033\f2      void func2(int  i);\par
+     char st[]="welcome,friend!";\par
+     void func1(int  i)\par
+     \{  printf("%c",st[i]);\par
+        if(i<3)\par
+\pard\nowidctlpar\li840\qj\{\tab i+=2;func2(i);\par
+\}\par
+\pard\nowidctlpar\qj      \}\par
+     void func2(int  i)\par
+     \{  printf("%c",st[i]);\par
+        if(i<3)\par
+\pard\nowidctlpar\fi420\li420\qj\{\tab i+=2;func1(i);\par
+\}\par
+\pard\nowidctlpar\qj      \}\par
+    void  main()\par
+     \{ \tab int i=0;  \par
+\pard\nowidctlpar\fi420\li420\qj func1(i); \par
+printf("\\n");\par
+\pard\nowidctlpar\fi105\li420\qj\}\par
+\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~wlo\cell\row\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~wlo\cell\row\pard\nowidctlpar\qj\b\f2\~\b0\f1 2\lang2052\f0\'a1\'a2\lang1033\f1\par
+\pard\nowidctlpar\li480\qj\f2 #include <stdio.h>\par
+long  f( int  g)\par
+\{ \tab switch(g)\par
+  \tab\{ \tab case 0:return  0;\par
+   \tab\tab case 1:\par
+   \tab\tab case 2: return  1; \par
+\pard\nowidctlpar\fi360\li480\qj\}\par
+\pard\nowidctlpar\li480\qj   \tab return  ( f(g-1)+ f(g-2));\par
+\}\par
+void main ( )\par
+\{  long int  k;\par
+   k = f(7);\par
+\pard\nowidctlpar\fi360\li480\qj printf("\\nk= %d\\n",k);\par
+\pard\nowidctlpar\li480\qj\}\b                                                    \cf1\b0  \par
+\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\cf0\lang2052\f0\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~k=13\cell\row\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj k=13\cell\row\pard\nowidctlpar\qj\b\f2\~\b0 3\lang2052\f0\'a1\'a2\lang1033\f2\par
+\pard\nowidctlpar\fi120\li420\qj  #include <stdio.h>\par
+ int f(int b[ ][4])\par
+\{ \tab int i,j,s=0;\par
+ \tab for(j=0;j<4;j++)\par
+  \tab\{\tab i=j;\par
+     \tab if(i>2)  i=3-j;\par
+     \tab s+=b[i][j];\par
+ \tab\}\par
+\pard\nowidctlpar\fi420\li420\qj return s;\par
+\pard\nowidctlpar\fi120\li420\qj\}\par
+void main( )\par
+\{ \tab int a[4][4]=\{\{1,2,3,4\},\{5,6,7,8\},\{9,10,11,12\},\{13,14,15,16\}\};\par
+\pard\nowidctlpar\fi420\li420\qj printf(\ldblquote %d\\n\rdblquote ,f(a) );\par
+\pard\nowidctlpar\fi120\li420\qj\}\par
+\pard\nowidctlpar\li480\qj\b                                                     \cf1\b0\par
+\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\cf0\lang2052\f0\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~22\cell\row\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~22\cell\row\pard\nowidctlpar\qj\f2 4\lang2052\f0\'a1\'a2\lang1033\f2\par
+\pard\nowidctlpar\fi35\li505\qj #include <stdio.h>\par
+float  fun(int x,int y)\par
+\{\par
+\tab return(x+y);\par
+\}\par
+\~\par
+void main()\par
+\{  \tab int a=2,b=6,c=8;\par
+\pard\nowidctlpar\fi335\li505\qj printf(\ldblquote %3.1 f \\n\rdblquote ,fun( (int)fun(a+c , b) , a-c ) ;\par
+\pard\nowidctlpar\fi35\li505\qj\}\par
+\pard\nowidctlpar\li480\qj\~\par
+\pard\nowidctlpar\qj             \par
+\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'b7\'d6\'ce\'f6\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~10\cell\row\trowd\trgaph108\trleft792\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx2520\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx6480\pard\intbl\nowidctlpar\qc\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f1\cell\pard\intbl\nowidctlpar\qj\~10\~\cell\row\pard\nowidctlpar\li480\qj\b\f2  \par
+\pard\nowidctlpar\qj\lang2052\f0\'b6\'fe\lang1033\f1 .\fs14\~\~ \lang2052\f0\fs21\'cd\'ea\'b3\'c9\'b3\'cc\'d0\'f2\lang1033\f1\par
+\lang2052\b0\f0\'d2\'aa\'c7\'f3\'a3\'ba\'b8\'f9\'be\'dd\'d2\'aa\'c7\'f3\'a3\'ac\'b7\'d6\'ce\'f6\'b8\'f8\'b3\'f6\'b5\'c4\'c9\'cf\'cf\'c2\'d3\'ef\'be\'e4\'a3\'ac\'cc\'ee\'d0\'b4\'b3\'cc\'d0\'f2\lang1033\f1\par
+\pard\nowidctlpar\fi-546\li546\sb120\qj\lang2052\f0 1\'a1\'a2\lang1033\f2 mystrlen\lang2052\f0\'ba\'af\'ca\'fd\'b5\'c4\'b9\'a6\'c4\'dc\'ca\'c7\'bc\'c6\'cb\'e3\'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'b3\'a4\'b6\'c8,\'b2\'a2\'d7\'f7\'ce\'aa\'ba\'af\'ca\'fd\'d6\'b5\'b7\'b5\'bb\'d8\'a1\'a3\'c7\'eb\'cc\'ee\'bf\'d5\'a3\'ac\'b2\'a2\'c5\'e4\'d0\'b4\'d6\'f7\'b5\'f7\'ba\'af\'ca\'fd\'a1\'a3\par
+\pard\nowidctlpar\fi35\li505\qj\lang1033\f2 #include <stdio.h>\par
+int  mystrlen(char  str[ ])\par
+\{ \tab int  i;\par
+\pard\nowidctlpar\fi125\li715\qj for(i=0;\ul   str[i]       \ulnone !=\lquote\\0';i++);\par
+return(\ul    i       \ulnone );\par
+\pard\nowidctlpar\fi35\li505\qj\}\par
+\pard\nowidctlpar\fi-325\li360\qj      void main ( )\par
+     \{\b\par
+     \tab _char str[100];______________;\par
+     \tab printf("\lang2052\f0\'c7\'eb\'ca\'e4\'c8\'eb\'d2\'bb\'b4\'ae\'d7\'d6\'b7\'fb\lang1033\f2 :"); gets(str);____________________;\par
+     \tab printf(\lang2052\f0\'ca\'e4\'c8\'eb\'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'b3\'a4\'b6\'c8\'ce\'aa\lang1033\f2 :%d\\n",mystrlen(str));_______________________; \par
+     \b0\}\par
+\pard\nowidctlpar\li360\qj\b\~\par
+\~\par
+\pard\nowidctlpar\sb120\qj\lang2052\b0\f0 2\'a1\'a2\'cd\'a8\'b9\'fd\'ba\'af\'ca\'fd\'c7\'f3\lang1033\f2 f(x)\lang2052\f0\'b5\'c4\'c0\'db\'bc\'d3\'ba\'cd\'a3\'ac\'c6\'e4\'d6\'d0\lang1033\f2 f\lang2052\f0\'a3\'a8\lang1033\f2 x\lang2052\f0\'a3\'a9\'a3\'bd\lang1033\f2 x*x*x\lang2052\f0\'a3\'ab\lang1033\f2 1\par
+\pard\nowidctlpar\li540\qj #include <stdio.h>\par
+int SunFun(int n) ;\par
+int F( int x) ;\par
+void main()\par
+\{\par
+\~\~ printf("The sum=%d\\n",SunFun(11));\par
+\}\par
+Int SunFun(int n)\par
+\{\par
+\~\~ int  x,s=0;\par
+\~\~ for(x=1;x<=n;x++)\~\~s+=F(\ul    x          \ulnone );          \par
+\~\~ return s;\par
+\}\par
+int F( int x)\par
+\{\~\~return \ul (  x*x*x+1          \ulnone );\}        \cf1\par
+\pard\nowidctlpar\qj\b\f1   \par
+\cf0\lang2052\f0\'c8\'fd\lang1033\f1 . \lang2052\f0\'b5\'f7\'ca\'d4\'b3\'cc\'d0\'f2\lang1033\f1\par
+\lang2052\b0\f0\'d2\'aa\'c7\'f3\'a3\'ba\'b7\'d6\'ce\'f6\'cf\'c2\'c1\'d0\'b3\'cc\'d0\'f2\'ca\'c7\'b7\'f1\'d5\'fd\'c8\'b7\'a3\'ac\'c8\'e7\'d3\'d0\'b4\'ed\'a3\'ac\'b4\'ed\'d4\'da\'c4\'c4\'b6\'f9\'a3\'bf\'d3\'a6\'c8\'e7\'ba\'ce\'b8\'c4\'d5\'fd\'a3\'bf\'c8\'e7\'d5\'fd\'c8\'b7\'a3\'ac\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\'c8\'e7\'ba\'ce\'a3\'bf\'c9\'cf\'bb\'fa\'b5\'f7\'ca\'d4\'d6\'ae\'a1\'a3\lang1033\f1\par
+\pard\nowidctlpar\fi-350\li350\sb120\qj 1\lang2052\f0\'a1\'a2\lang1033\f1  \lang2052\f0\'ba\'af\'ca\'fd\lang1033\f2 sstrcmp()\lang2052\f0\'b5\'c4\'b9\'a6\'c4\'dc\'ca\'c7\'b6\'d4\'c1\'bd\'b8\'f6\'d7\'d6\'b7\'fb\'b4\'ae\'bd\'f8\'d0\'d0\'b1\'c8\'bd\'cf\'a1\'a3\'b5\'b1\lang1033\f2 s\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'ba\'cd\lang1033\f2 t\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'cf\'e0\'b5\'c8\'ca\'b1\'a3\'ac\'b7\'b5\'bb\'d8\'d6\'b5\'ce\'aa\lang1033\f2 0\lang2052\f0\'a3\'bb\'b5\'b1\lang1033\f2 s\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'b4\'f3\'d3\'da\lang1033\f2 t\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'ca\'b1\'a3\'ac\'b7\'b5\'bb\'d8\'d6\'b5\'b4\'f3\'d3\'da\lang1033\f2 0\lang2052\f0\'a3\'bb\'b5\'b1\lang1033\f2 s\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'d0\'a1\'d3\'da\lang1033\f2 t\lang2052\f0\'ca\'fd\'d7\'e9\'d6\'d0\'d7\'d6\'b7\'fb\'b4\'ae\'ca\'b1\'a3\'ac\'b7\'b5\'bb\'d8\'d6\'b5\'d0\'a1\'d3\'da\lang1033\f2 0\lang2052\f0\'a3\'a8\'b9\'a6\'c4\'dc\'b5\'c8\'cd\'ac\'d3\'da\'bf\'e2\'ba\'af\'ca\'fd\lang1033\f2 strcmp()\lang2052\f0\'a3\'a9\'a1\'a3\lang1033\f2\par
+\pard\nowidctlpar\fi454\li505\qj #include  <stdio.h>\par
+\pard\nowidctlpar\fi-624\li624\qj      \b 1 \b0   int sstrcmp(char s[ ],char t[])\par
+     \b 2 \b0   \{  int  i=0 , j=0 ;\par
+     \b 3 \b0    \tab while(s[i]&&t[j]&& s[i]== t[j] ) ;           \cf1\par
+\pard\nowidctlpar\qj\cf0      \b 4 \b0      return     s[i]-t[j];\par
+     \b 5 \b0   \}\par
+\pard\nowidctlpar\fi-624\li624\qj      \b 6 \b0   void main()\par
+     \b 7 \b0   \{\tab int  x;\par
+     \b 8 \b0     \tab char s1[50],s2[50];\par
+\pard\nowidctlpar\qj      \b 9 \b0     \tab scanf("%s%s",s1,s2);\par
+\pard\nowidctlpar\fi-624\li624\qj      \b 10\b0     \tab x= sstrcmp(s1,s2);\par
+\pard\nowidctlpar\qj      \b 11\b0     \tab printf("\\n%d\\n",x);\par
+\pard\nowidctlpar\fi210\li624\qj   \}\lang2052\f0         \par
+\trowd\trgaph108\trleft1800\trrh158\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmgf\clvmrg\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\nowidctlpar\sl158\slmult0\qj\'b6\'d4\lang1033\f2\cell\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f2\cell\row\trowd\trgaph108\trleft1800\trrh157\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmrg\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\cell\pard\intbl\nowidctlpar\sl157\slmult0\qj\f1\~\f2\cell\row\trowd\trgaph108\trleft1800\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmgf\clvmrg\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\nowidctlpar\qj\lang2052\f0\'b4\'ed\lang1033\f2\cell\lang2052\f0\'b4\'ed\'ce\'f3\'d4\'da\lang1033\f2      \lang2052\f0\'d0\'d0\lang1033\f2\cell\row\trowd\trgaph108\trleft1800\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmrg\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\cell\pard\intbl\nowidctlpar\qj\lang2052\f0\'d3\'a6\'b8\'c4\'ce\'aa\'a3\'ba\lang1033\f2\cell\row\pard\nowidctlpar\sb120\qj\f1 2\lang2052\f0\'a1\'a2\'d2\'d4\'cf\'c2\'b3\'cc\'d0\'f2\'b5\'c4\'b9\'a6\'c4\'dc\'ca\'c7\'d3\'c3\'b5\'dd\'b9\'e9\'b7\'bd\'b7\'a8\'bc\'c6\'cb\'e3\'d1\'a7\'c9\'fa\'b5\'c4\'c4\'ea\'c1\'e4\'a3\'ac\'d2\'d1\'d6\'aa\'b5\'da\'d2\'bb\'ce\'bb\'d1\'a7\'c9\'fa\'c4\'ea\'c1\'e4\'d7\'ee\'d0\'a1\'a3\'ac\'ce\'aa\lang1033\f1 10\lang2052\f0\'cb\'ea\'a3\'ac\'c6\'e4\'d3\'e0\'d1\'a7\'c9\'fa\'d2\'bb\'b8\'f6\'b1\'c8\'d2\'bb\'b8\'f6\'b4\'f3\lang1033\f1 2\lang2052\f0\'cb\'ea\'a3\'ac\'c7\'f3\'b5\'da\lang1033\f1 12\lang2052\f0\'ce\'bb\'d1\'a7\'c9\'fa\'b5\'c4\'c4\'ea\'c1\'e4\'a1\'a3\lang1033\f1\par
+\pard\nowidctlpar\li540\qj\f2  #include <stdio.h> \par
+ void main()\par
+\b 1 \b0  \{ \tab int  age( int  n)\~; \par
+\b 2 \b0   \tab int  n =12;\par
+\b 3 \b0   \tab printf (\ldblquote  Age is  %d\\n\rdblquote  , age (n)\lang2052\f0\'a3\'bb\lang1033\f2\par
+\b 4 \b0   \};\par
+\b 5 \b0   int  age(int  n);\par
+\b 6 \b0   \{ \tab int  c;\par
+\b 7 \b0    \tab c = age (n-1)+2 ;         \cf1  \par
+\cf0\b 8 \b0    \tab return ( c ) ;\par
+\b 9 \b0   \}\par
+\pard\nowidctlpar\fi175\li718\qj\b       \par
+\trowd\trgaph108\trleft1800\trrh158\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmgf\clvmrg\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\nowidctlpar\sl158\slmult0\qj\lang2052\b0\f0\'b6\'d4\lang1033\f2\cell\lang2052\f0\'d4\'cb\'d0\'d0\'bd\'e1\'b9\'fb\lang1033\f2\cell\row\trowd\trgaph108\trleft1800\trrh157\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmrg\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\cell\pard\intbl\nowidctlpar\sl157\slmult0\qj\f1\~\f2\cell\row\trowd\trgaph108\trleft1800\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmgf\clvmrg\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\nowidctlpar\qj\lang2052\f0\'b4\'ed\lang1033\f2\cell\lang2052\f0\'b4\'ed\'ce\'f3\'d4\'da\lang1033\f2      \lang2052\f0\'d0\'d0\lang1033\f2\cell\row\trowd\trgaph108\trleft1800\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvmrg\clvertalc\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx3420\clbrdrl\brdrw15\brdrs\clbrdrt\brdrw15\brdrs\clbrdrr\brdrw15\brdrs\clbrdrb\brdrw15\brdrs \cellx8414\pard\intbl\cell\pard\intbl\nowidctlpar\qj\lang2052\f0\'d3\'a6\'b8\'c4\'ce\'aa\'a3\'ba\lang1033\f2\cell\row\pard\nowidctlpar\li540\qj\b\~\b0 3\lang2052\f0\'a1\'a2\kerning0\'c9\'cf\'bb\'fa\'b5\'f7\'ca\'d4\'cf\'c2\'c3\'e6\'b5\'c4\'b3\'cc\'d0\'f2\'a3\'ac\'bc\'c7\'c2\'bc\'cf\'b5\'cd\'b3\'b8\'f8\'b3\'f6\'b5\'c4\'b3\'f6\'b4\'ed\'d0\'c5\'cf\'a2\'a3\'ac\'b2\'a2\'d6\'b8\'b3\'f6\'b3\'f6\'b4\'ed\'d4\'ad\'d2\'f2\'a1\'a3\par
+\lang1033\kerning2\f2 #include <stdio.h>\par
+void main()\par
+\{\par
+\pard\nowidctlpar\fi300\li540\qj int x,y; //\lang2052\f0\'d5\'e2\'d4\'da\'b6\'a8\'d2\'e5\'ca\'b2\'c3\'b4\'b6\'ab\'ce\'f7\'a3\'bf\'b6\'a8\'d2\'e5\'c1\'bd\'b8\'f6\'b1\'e4\'c1\'bf\lang1033\f2\par
+printf("%d\\n",sum(x+y)); //sum\lang2052\f0\'b5\'c4\'b5\'f7\'d3\'c3\'d0\'ce\'ca\'bd\'d5\'fd\'c8\'b7\'c2\'f0\'a3\'bf \'d5\'fd\'c8\'b7\'a3\'a1\lang1033\f2\par
+int sum(a,b) //\lang2052\f0\'ba\'af\'ca\'fd\'bf\'c9\'d2\'d4\'c7\'b6\'cc\'d7\'b6\'a8\'d2\'e5\'c2\'f0\'a3\'bf \'ba\'af\'ca\'fd\'b2\'bb\'c4\'dc\'c7\'b6\'cc\'d7\'b6\'a8\'d2\'e5\'a3\'a1\lang1033\f2\par
+\{\par
+\pard\nowidctlpar\fi300\li958\qj int a,b; //\lang2052\f0\'d0\'ce\'ca\'bd\'b2\'ce\'ca\'fd\'ca\'c7\'d5\'e2\'d1\'f9\'c9\'f9\'c3\'f7\'b5\'c4\'c2\'f0\'a3\'bf\'b2\'bb\'ca\'c7\'a3\'ac\'d3\'a6\'b8\'c3\'ca\'c7 int sum(int ,int );\lang1033\f2\par
+\pard\nowidctlpar\fi609\li657\qj return(a+b);\par
+\pard\nowidctlpar\fi300\li540\qj\}\par
+\pard\nowidctlpar\li540\qj\}\par
+\pard\nowidctlpar\lang2052\b\f0\'cb\'c4\lang1033\f1 . \lang2052\f0\'d0\'b4\'b3\'cc\'d0\'f2\lang1033\f1\par
+\pard\nowidctlpar\qj\lang2052\b0\f0\'b1\'e0\'d0\'b4\'c1\'bd\'b8\'f6\'ba\'af\'ca\'fd\'a3\'ac\'c6\'e4\'b9\'a6\'c4\'dc\'b7\'d6\'b1\'f0\'ce\'aa\'a3\'ba\'a1\'a1\lang1033\f1\par
+\lang2052\f0\'a2\'c5 \'c7\'f3N\'b8\'f6\'d5\'fb\'ca\'fd\'b5\'c4\'d7\'ee\'b4\'f3\'d6\'b5\'ba\'cd\'d7\'ee\'d0\'a1\'d6\'b5\lang1033\f1\par
+\lang2052\f0\'a2\'c6 \'c7\'f3\'c1\'bd\'b8\'f6\'d5\'fb\'ca\'fd\'b5\'c4\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'ba\'cd\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\lang1033\f1\par
+\lang2052\f0\'ca\'e4\'c8\'eb10\'b8\'f6\'d5\'fb\'ca\'fd\'a3\'ac\'b5\'f7\'d3\'c3\'ba\'af\'ca\'fd\'c7\'f3\'cb\'fc\'c3\'c7\'b5\'c4\'d7\'ee\'b4\'f3\'d6\'b5\'ba\'cd\'d7\'ee\'d0\'a1\'d6\'b5,\'bc\'b0\'d7\'ee\'b4\'f3\'d6\'b5\'ba\'cd\'d7\'ee\'d0\'a1\'d6\'b5\'b5\'c4\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'ba\'cd\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'a1\'a3\lang1033\f1\par
+\lang2052\f0\'d2\'aa\'c7\'f3\'a3\'ba\'d5\'e2\'c1\'bd\'b8\'f6\'ba\'af\'ca\'fd\'ba\'cd\'d6\'f7\'ba\'af\'ca\'fd\'b7\'d6\'ca\'f43\'b8\'f6\'ce\'c4\'bc\'fe\'a1\'a3\lang1033\f1\par
+\lang2052\f0\'c7\'f3\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'ba\'cd\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'b5\'c4\'b7\'bd\'b7\'a8\'a3\'a8\'d2\'d412\'ba\'cd8\'ce\'aa\'c0\'fd\'a3\'a9\'a3\'ba\lang1033\f1\par
+\lang2052\f0\'d5\'b7\'d7\'aa\'cf\'e0\'b3\'fd\'b7\'a8\'a3\'ba\'c1\'bd\'ca\'fd\'cf\'e0\'b3\'fd\'a3\'ac\'c8\'f4\'b2\'bb\'c4\'dc\'d5\'fb\'b3\'fd\'a3\'ac\'d4\'f2\'d2\'d4\'b3\'fd\'ca\'fd\'d7\'f7\'ce\'aa\'b1\'bb\'b3\'fd\'ca\'fd\'a3\'ac\'d3\'e0\'ca\'fd\'d7\'f7\'ce\'aa\'b3\'fd\'ca\'fd\'a3\'ac\'bc\'cc\'d0\'f8\'cf\'e0\'b3\'fd\'a3\'ac\'d6\'b1\'b5\'bd\'d3\'e0\'ca\'fd\'ce\'aa0\'ca\'b1\'a3\'ac\'b5\'b1\'c7\'b0\'b3\'fd\'ca\'fd\'be\'cd\'ca\'c7\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'a1\'a3\'b6\'f8\'d4\'ad\'c0\'b4\'c1\'bd\'b8\'f6\'ca\'fd\'b5\'c4\'bb\'fd\'b3\'fd\'d2\'d4\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'b5\'c4\'c9\'cc\'be\'cd\'ca\'c7\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'a1\'a3\lang1033\f1\par
+\lang2052\f0 12 8\lang1033\f1\par
+\lang2052\f0 12%8 \'b5\'c4\'d3\'e0\'ca\'fd\'ce\'aa4\lang1033\f1\par
+\lang2052\f0 8%4 \'b5\'c4\'d3\'e0\'ca\'fd\'ce\'aa0 \lang1033\f1\par
+\lang2052\f0\'d4\'f2 4 \'ce\'aa\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'a3\'ac12*8/4\'ce\'aa\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'a1\'a3\lang1033\f1\par
+\lang2052\f0\'cf\'e0\'bc\'f5\'b7\'a8\'a3\'ba\'c1\'bd\'b8\'f6\'ca\'fd\'d6\'d0\'b5\'c4\'b4\'f3\'ca\'fd\'bc\'f5\'d0\'a1\'ca\'fd\'a3\'ac\'c6\'e4\'b2\'ee\'d3\'eb\'bc\'f5\'ca\'fd\'d4\'d9\'bd\'f8\'d0\'d0\'b4\'f3\'ca\'fd\'bc\'f5\'d0\'a1\'ca\'fd\'a3\'ac\'d6\'b1\'b5\'bd\'b2\'ee\'d3\'eb\'bc\'f5\'ca\'fd\'cf\'e0\'b5\'c8\'ce\'aa\'d6\'b9\'a3\'ac\'b4\'cb\'ca\'b1\'b5\'c4\'b2\'ee\'bb\'f2\'bc\'f5\'ca\'fd\'be\'cd\'ca\'c7\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'a1\'a3\'b6\'f8\'d4\'ad\'c0\'b4\'c1\'bd\'b8\'f6\'ca\'fd\'b5\'c4\'bb\'fd\'b3\'fd\'d2\'d4\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'b5\'c4\'c9\'cc\'be\'cd\'ca\'c7\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'a1\'a3\lang1033\f1\par
+\lang2052\f0 12 8\lang1033\f1\par
+\lang2052\f0 12-8=4 8-4=4\lang1033\f1\par
+\lang2052\f0\'d4\'f2 4 \'ce\'aa\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'a3\'ac12*8/4\'ce\'aa\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'a1\'a3\lang1033\f1\par
+\lang2052\f0\'bc\'d9\'b6\'a8\'b1\'a3\'b4\'e6\'d6\'f7\'ba\'af\'ca\'fd\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'ca\'c7"file1.c", \'b1\'a3\'b4\'e6\'c7\'f3\'b4\'ce\'b4\'f3\'d6\'b5\'ba\'cd\'b4\'ce\'d0\'a1\'d6\'b5\'ba\'af\'ca\'fd\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'ca\'c7"file2.c", \'b1\'a3\'b4\'e6\'c7\'f3\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\'ba\'cd\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'ba\'af\'ca\'fd\'b5\'c4\'ce\'c4\'bc\'fe\'c3\'fb\'ca\'c7"file3.c"\'a1\'a3\'cf\'d6\'d4\'da\'d4\'d9\'b1\'e0\'bc\'ad\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'a3\'ac\'cb\'fc\'b5\'c4\'c4\'da\'c8\'dd\'c8\'e7\'cf\'c2\'a3\'ba\lang1033\f1\par
+\lang2052\f0 file1.c\lang1033\f1\par
+\lang2052\f0 file2.c\lang1033\f1\par
+\lang2052\f0 file3.c\lang1033\f1\par
+\lang2052\f0\'b1\'a3\'b4\'e6\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'ce\'aa"find.prj"\'a1\'a3\'d5\'e2\'ca\'c7\'d2\'bb\'b8\'f6\'cf\'ee\'c4\'bf\'ce\'c4\'bc\'fe\'a3\'ac\'b1\'ed\'ca\'be\'ce\'c4\'bc\'fe\'d6\'d0\'d6\'b8\'b6\'a8\'b5\'c4\'bc\'b8\'b8\'f6\'ba\'af\'ca\'fd\'bd\'ab\'c1\'ac\'bd\'d3\'ce\'aa\'d2\'bb\'b8\'f6\'c3\'fb\'ce\'aa"find.exe"\'b5\'c4\'bf\'c9\'d6\'b4\'d0\'d0\'ce\'c4\'bc\'fe\'a1\'a3\'ce\'d2\'c3\'c7\'d2\'aa\'bd\'ab\'cf\'ee\'c4\'bf\'ce\'c4\'bc\'fe\'c3\'fb\'cd\'a8\'d6\'aaTC\'bb\'b7\'be\'b3\'a3\'ac\'b0\'b4<Alt+P>\'bc\'fc\'a3\'ac\'d1\'a1\'d4\'f1"Project"\'b2\'cb\'b5\'a5\'b5\'c4"Project Name"\'d1\'a1\'cf\'ee\'a3\'ac\'d4\'da"Project Name"\'b4\'b0\'bf\'da\'ca\'e4\'c8\'eb\'cf\'ee\'c4\'bf\'ce\'c4\'bc\'fe\'c3\'fb\'a1\'a3\'b1\'e0\'d2\'eb\'cf\'b5\'cd\'b3\'d5\'e2\'ca\'b1\'bd\'ab\'b8\'f9\'be\'dd\'cf\'ee\'c4\'bf\'ce\'c4\'bc\'fe\'d6\'b8\'b3\'f6\'b5\'c4\'d4\'b4\'ce\'c4\'bc\'fe\'c3\'fb\'b7\'d6\'b1\'f0\'bd\'f8\'d0\'d0\'b1\'e0\'d2\'eb\'a3\'ac\'c8\'bb\'ba\'f3\'b0\'d1\'b1\'e0\'d2\'eb\'ba\'f3\'b5\'c4\'c4\'bf\'b1\'ea\'ce\'c4\'bc\'fe\'a3\'a8.obj\'ce\'c4\'bc\'fe\'a3\'a9\'c1\'ac\'bd\'d3\'b3\'c9\'d2\'bb\'b8\'f6\'bf\'c9\'d6\'b4\'d0\'d0\'ce\'c4\'bc\'fe\'a1\'a3\par
+\par
+\'c3\'b0\'c5\'dd\'c5\'c5\'d0\'f2\'b7\'a8\par
+\par
+\lang1033\f1 #include<stdio.h>\par
+#define N 10\par
+void maopao(int *a,int n);\par
+int main()\par
+\{\par
+\tab int a[N];\par
+\tab int i;\par
+\tab printf("\lang2052\f0\'ca\'e4\'c8\'eb\'ca\'ae\'b8\'f6\'d5\'fb\'ca\'fd\lang1033\f1 :");\par
+\tab for(i=0;i<10;i++)\par
+\tab\{\par
+\tab\tab scanf("%d",&a[i]);\par
+\tab\} \par
+\tab maopao(a,N);\par
+\tab printf("\lang2052\f0\'c5\'c5\'d0\'f2\'d6\'ae\'ba\'f3\'ce\'aa\lang1033\f1 :\\n");\par
+\tab for(i=0;i<10;i++)\par
+\tab\{\par
+\tab\tab printf("%d\\t",a[i]);\par
+\tab\}\par
+\tab return 0;\par
+\}\par
+void maopao(int *a,int n)\par
+\{\par
+\tab int i,j,t;\par
+\tab for(i=0;i<n;i++)\par
+\tab\{\par
+\tab\tab for(j=n-i;j<n;j++)\par
+\tab\tab\{\par
+\tab\tab\tab if(a[j-1]>a[i])\par
+\tab\tab\tab\{\par
+\tab\tab\tab\tab t=a[j-1];\par
+\tab\tab\tab\tab a[j-1]=a[i];\par
+\tab\tab\tab\tab a[i]=t;\par
+\tab\tab\tab\}\par
+\tab\tab\}\par
+\tab\}\par
+\}\par
+\par
+\lang2052\f0\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\'d3\'eb\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\lang1033\f1\par
+#include<stdio.h>\par
+int main()\par
+\{\par
+\tab int m,n,a,b,c,tmp;\par
+\tab printf("\lang2052\f0\'c7\'eb\'ca\'e4\'c8\'eb\'c1\'bd\'b8\'f6\'ca\'fd\lang1033\f1 :");\par
+\tab scanf("%d %d",&m,&n);\par
+\tab a=m,b=n;\par
+\tab while(b!=0)\par
+\tab\{\par
+\tab\tab tmp=a%b;a=b;b=tmp;\tab\par
+\tab\}\par
+\tab printf("\lang2052\f0\'d7\'ee\'d0\'a1\'b9\'ab\'b1\'b6\'ca\'fd\lang1033\f1 :%d\\n",a);\par
+\tab printf("\lang2052\f0\'d7\'ee\'b4\'f3\'b9\'ab\'d4\'bc\'ca\'fd\lang1033\f1 :%d\\n",m*n/a);\par
+\tab return 0;\par
+\}\par
+}
+ 
